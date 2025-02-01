@@ -1,0 +1,3 @@
+- in js and in python we can not access global variables with same  inside function when variable with same name inside scope
+- python variables are same as javascript's `var` declarations
+- in python we have only function scoped variables
