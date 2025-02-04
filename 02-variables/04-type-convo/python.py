@@ -51,3 +51,7 @@
     Converts an integer to an octal string.
 
 """
+
+mathStr = "1 + 20"
+
+print(eval(mathStr))
