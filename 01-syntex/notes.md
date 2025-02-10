@@ -6,7 +6,7 @@ python
     print("to print in terminal", end="")  # after print it will not start in new line
 
     # userinput
-    user_input = input("Please enter value: ") # output will be in string type
+    user_input = input("Please enter value: ") # input returns value in string type
 
 ```
 
@@ -24,6 +24,6 @@ javascript
 
 
     // userinput
-    let userInput = promt("Please enter value: ") // output will be in string type
+    let userInput = prompt("Please enter value: ") // input returns value in string type
 
 ```
