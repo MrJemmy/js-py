@@ -1,3 +1,5 @@
+- in python `4 < age < 10` this works but in javascript `(age < 4 && age < 10)` we need to write this way.
+
 > Q. If the age is less than 0, print "Invalid age".
 > - If the age is between 0 and 12 (inclusive), check:
 > - If the person loves toys (boolean value), print "Child who loves toys".
