@@ -16,7 +16,7 @@ Show that in Python, you can perform chained comparisons like 10 > age > 4, but 
 
 ```python
 
-def determine_category(age, loves_toys=False, loves_sports=False, is_parent=False):
+def determine_category(age: int, loves_toys: bool=False, loves_sports: bool=False, is_parent: bool=False) -> None:
     if age < 0:
         print("Invalid age")
     else:

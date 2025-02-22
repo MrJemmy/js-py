@@ -1,5 +1,5 @@
 # only outside functions this is not accessible
-var = "only one way to declare variables"
+var: str = "only one way to declare variables"
 
 
 print("Address of var :", id(var))

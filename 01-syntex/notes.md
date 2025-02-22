@@ -6,7 +6,7 @@ python
     print("to print in terminal", end="")  # after print it will not start in new line
 
     # userinput
-    user_input = input("Please enter value: ") # input returns value in string type
+    user_input: str = input("Please enter value: ") # input returns value in string type
 
 ```
 

@@ -17,7 +17,7 @@
 
     
         # this is to check the value is instanse of other value or not
-        variable = [11, 12, 13, 13]
+        variable: list[int] = [11, 12, 13, 13]
         isinstance(variable, list)
 
     ```

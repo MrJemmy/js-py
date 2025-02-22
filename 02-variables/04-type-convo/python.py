@@ -52,6 +52,6 @@
 
 """
 
-mathStr = "1 + 20"
+mathStr: str = "1 + 20"
 
 print(eval(mathStr))

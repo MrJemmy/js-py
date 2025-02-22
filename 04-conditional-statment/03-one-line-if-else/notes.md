@@ -1,8 +1,8 @@
 - python 
 
 ```python
-age = 20
-category = "Adult" if age >= 18 else "Minor"
+age: int = 20
+category: str = "Adult" if age >= 18 else "Minor"
 print(category)
 ```
 

@@ -3,7 +3,7 @@
 ```python
 
 # we can use Combined Cases using `| (or)`
-user = "Guest"
+user: str = "Guest"
 
 match user:
       case "admin" | "manager":  print("Full access")
@@ -11,7 +11,7 @@ match user:
       case _: print("No access")
 
 # we can use condition inside match cash and we do not need break here to break the case
-details = [100,5]
+details: list[int] = [100,5]
 
 match details:
     case [amt, duration] if 1000<amt<10000 :
@@ -24,7 +24,7 @@ match details:
         print("amount must be abow 1000")
         
 
-n = 3
+n: int = 3
 match n:
     case 0: print("Monday")
     case 1: print("Tuesday")

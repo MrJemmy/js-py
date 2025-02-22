@@ -5,19 +5,19 @@ for i in range(1, 6):
     print(i)
 
 # in list we get values
-cars = ["BMW", "Volvo", "Mini"]
-for car in cars:
+cars: list[str] = ["BMW", "Volvo", "Mini"]
+for car: str in cars:
     print(car)
 
 # array with indexes
-colors = ["red", "green", "blue"]
-for index, color in enumerate(colors):
+colors: list[str] = ["red", "green", "blue"]
+for index: int, color: str in enumerate(colors):
     print(f"{index}: {color}")
 
 # in dictionary we get keys
-numbersDir = {10:"Ten", 20:"Twenty", 30:"Thirty",40:"Forty"}
-for numbersKey in numbersDir:
-   print (numbersKey,":",numbersDir[numbersKey])
+numbers_dir: dict[int, str] = {10:"Ten", 20:"Twenty", 30:"Thirty",40:"Forty"}
+for numbers_key: int in numbers_dir:
+   print (numbers_key,":",numbers_dir[numbers_key])
 
 # using items we get tuple of keys and values 
 numbers = {10:"Ten", 20:"Twenty", 30:"Thirty",40:"Forty"}
