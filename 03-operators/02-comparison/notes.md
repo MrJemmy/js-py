@@ -10,3 +10,7 @@
     - `Object.is(value1, value2)` and `sameValueZero(value1, value2)` are also use to compare values
     - [all comparition with `==` and `===` and for `if()`](https://dorey.github.io/JavaScript-Equality-Table/)
     - [all comparition with `==` and `===` and `Object.is()` and `sameValueZero()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness#comparing_equality_methods)
+
+
+    - we can not compare objects `{} == {}`, default it will compare with as `===`
+    - also `{} == ""` is false but `[] == ''` is true

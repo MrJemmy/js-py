@@ -25,5 +25,6 @@ javascript
 
     // userinput
     let userInput = prompt("Please enter value: ") // input returns value in string type
+    let userConform = confirm("please conform this") // return true on OK and false on cancel
 
 ```

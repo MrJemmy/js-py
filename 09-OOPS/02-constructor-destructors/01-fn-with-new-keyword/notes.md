@@ -1,0 +1,1 @@
+- when we use function with new key word it behaves like constructor function.
